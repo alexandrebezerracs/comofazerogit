@@ -70,8 +70,8 @@ git checkout
 -----------------------ordem dos códigos do git-----------------------
 
 git init
-git config --local/--global user.name alexandrebezerracs
-git config --local/--global user.email alexandrebezerracs@outlook.com
+git config --local/--global user.name "NOME DA SUA CONTA"
+git config --local/--global user.email "SEU EMAIL"
 git branch -M main
 git add .
 git commit -m "letra"
