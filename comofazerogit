@@ -1,0 +1,86 @@
+Vercionamento local:
+O Git é um software que você instala na sua máquina. Ele cria uma pasta invisível chamada .git que monitora cada linha de código que você altera.
+
+1. Git(Instalação logal):
+
+- Git bash(Terminal)
+- Config local/Global
+  - git config --global user.name "Seu Nome"
+  - git config --global user.email "seu@email.com"
+  -git config --global --unset "user.name"
+  -git config --global --unset "user.email"
+
+- Repositório (.git)
+  -Cria uma pasta no formato git(.git)
+- Gitignore
+  -É um arquivo (.gitignore) onde você escreve o nome de pastas ou arquivos que o Git não deve rastrear (como senhas ou bibliotecas pesadas).
+
+- Vercionamento local
+- Gerenciamento
+- Backup
+- Ramos (Branch)
+  -São linhas do tempo paralelas. Você pode criar uma branch para testar uma funcionalidade nova sem estragar o código principal que já funciona.
+- Historico (Recuperação)
+
+2. Github(Conta Nuvem):
+
+- Vercionamento em Nuvem
+- Gerenciamento compartilhado
+- Trabalho em equipe
+- Portfólio profissional
+- Repositório Publico(Open Source)
+- Contro distribuição tarefa
+
+- Git pull e Git push 
+  -git pull: Puxa as novidades que seus colegas enviaram para o GitHub para a sua máquina.
+  -git push: Empurra seus commits locais para o GitHub.
+
+- git add remote
+-Git remote add origin [URL]: Diz ao seu Git local qual o endereço da "casa" dele na nuvem.
+- git remote -v
+(Isso vai listar os endereços configurados para "puxar" e "empurrar" dados).
+
+- versão 1.0
+
+- versão 2.0 
+
+comando locais 
+
+git initi: Cria um repositório
+git status: O seu melhor amigo. Ele te diz o que foi alterado e o que ainda não foi salvo.
+git add: Prepara os arquivos (coloca na "área de espera" ou Staging Area).
+git commit -m "mensagem": Salva uma "foto" oficial do seu código com uma descrição.
+git branch: Gerencia suas linhas do tempo.
+git checkout: Comando usado para navegar entre as versões ou branches.
+
+- metodologia scrum
+É uma metodologia ágil (framework) de gerenciamento de projetos focada em entregas rápidas, contínuas e colaborativas.
+
+-----------------------códigos do git-----------------------
+rm -rf .git
+git remote add origin [URL]
+git remote -v
+git initi
+git status
+git add
+git commit -m "mensagem"
+git branch
+git checkout
+
+-----------------------ordem dos códigos do git-----------------------
+
+git init
+git config --local/--global user.name alexandrebezerracs
+git config --local/--global user.email alexandrebezerracs@outlook.com
+git branch -M main
+git add .
+git commit -m "letra"
+git status
+git remote add origin "link do repositório"
+git push origin main
+
+-----------------------códigos do git caso faço merda-----------------------
+
+git config --global --unset user.name
+git config --global --unset user.email
+git config --global --list
